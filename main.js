@@ -6,7 +6,7 @@ var router = express.Router();
 router.get('/', async(req, res) => {
 	res.sendFile(__path + 'index.html')
 })
-router.get('/css/style.css', async(req, res) => {
+router.get('assets/css/styles.css', async(req, res) => {
 	res.sendFile(__path + 'assets/css/styles.css')
 })
 
