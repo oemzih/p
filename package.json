@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "web",
+  "main": "index.js",
+  "scripts": {
+    "test": "antiwibu"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZenTod/web.git"
+  },
+  "keywords": [
+    "web",
+    "portfolio"
+  ],
+  "author": "Zen Awok",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZenTod/web/issues"
+  },
+  "homepage": "https://github.com/ZenTod/web#readme"
+}
