@@ -4,7 +4,7 @@
   "description": "web",
   "main": "index.js",
   "scripts": {
-    "test": "antiwibu"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
