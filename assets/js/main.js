@@ -41,8 +41,8 @@ var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
 
     
     /* Github Calendar - https://github.com/IonicaBizau/github-calendar */
-    new GitHubCalendar("#github-graph", "ZenTod", { responsive: true });
+    new GitHubCalendar("#github-graph", "Zenn666", { responsive: true });
     
     
     /* Github Activity Feed - https://github.com/caseyscarborough/github-activity */
-    GitHubActivity.feed({ username: "ZenTod", selector: "#ghfeed" });
+    GitHubActivity.feed({ username: "Zenn666", selector: "#ghfeed" });
