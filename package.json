@@ -8,13 +8,13 @@
 },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ZenTod/web.git"
+    "url": "git+https://github.com/Zenn666/web.git"
   },
   "keywords": [
     "web",
     "portfolio"
   ],
-  "author": "Zen Awok",
+  "author": "Zen",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.0",
@@ -25,7 +25,7 @@
     "nodemon": "^2.0.6"
   },
   "bugs": {
-    "url": "https://github.com/ZenTod/web/issues"
+    "url": "https://github.com/Zenn666/web/issues"
   },
-  "homepage": "https://github.com/ZenTod/web#readme"
+  "homepage": "https://github.com/Zenn666/web#readme"
 }
