@@ -10,11 +10,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Zenn666/web.git"
-  },
-  "keywords": [
-    "web",
-    "portfolio"
-  ],
+ },
   "author": "Zen",
   "license": "ISC",
   "dependencies": {
