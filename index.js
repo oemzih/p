@@ -12,7 +12,7 @@ app.use(express.static('client'));
 app.set("json spaces",2)
 __path = process.cwd()
 
-var main = require('./main.js');
+var main = require('./main');
 
 app.use('/', main)
 
