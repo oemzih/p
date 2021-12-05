@@ -4,8 +4,7 @@
   "description": "web",
   "main": "index.js",
   "scripts": {
-    "start": "index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "index.js"
 },
   "repository": {
     "type": "git",
@@ -17,12 +16,4 @@
     "axios": "^0.21.0",
     "chalk": "^4.1.0",
     "cheerio": "^1.0.0-rc.3"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.6"
-  },
-  "bugs": {
-    "url": "https://github.com/Zenn666/web/issues"
-  },
-  "homepage": "https://github.com/Zenn666/web#readme"
 }
