@@ -4,7 +4,7 @@ var express = require('express');
 var router = express.Router();
 
 router.get('/docs', async(req, res) => {
-	res.sendFile(__path + '/index.html')
+	res.sendFile(__path + '/home.html')
 })
 
 router.get('/assets/css/styles.css', async(req, res) => {
