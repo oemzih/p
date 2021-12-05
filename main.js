@@ -13,7 +13,7 @@ router.get('/assets/css/styles.css', async(req, res) => {
 
 router.get('/assets/js/main.js', async(req, res) => {
 	res.sendFile(__path + '/assets/js/main.js')
-}
+})
 
 
 //Kalo page yang lu cari engga ada, nanti muncul ini
