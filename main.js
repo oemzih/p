@@ -3,15 +3,15 @@ __path = process.cwd()
 var express = require('express');
 var router = express.Router();
 
-router.get('../index.html', async(req, res) => {
+router.get('/docs', async(req, res) => {
 	res.sendFile(__path + '../index.html')
 })
 
-router.get('../assets/css/styles.css', async(req, res) => {
+router.get('/assets/css/styles.css', async(req, res) => {
 	res.sendFile(__path + '../assets/css/styles.css')
 })
 
-router.get('../assets/js/main.js', async(req, res) => {
+router.get('/assets/js/main.js', async(req, res) => {
 	res.sendFile(__path + '../assets/js/main.js')
 }
 
