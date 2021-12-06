@@ -63,6 +63,9 @@ router.get('/assets/images/profile.png', async(req, res) => {
 	res.sendFile(__path + '/assets/images/profile.png')
 })
 
+router.get('/favicon.ico', async(req, res) => {
+	res.sendFile(__path + '/favicon.ico')
+})
 
 router.use(function (req, res) {
 res.status(404)
