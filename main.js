@@ -15,8 +15,23 @@ router.get('/assets/js/main.js', async(req, res) => {
 	res.sendFile(__path + '/assets/js/main.js')
 })
 
+router.get('/assets/fontawesome/js/all.js', async(req, res) => {
+	res.sendFile(__path + '/assets/fontawesome/js/all.js')
+})
 
-//Kalo page yang lu cari engga ada, nanti muncul ini
+router.get('/assets/plugins/bootstrap/css/bootstrap.min.css', async(req, res) => {
+	res.sendFile(__path + '/assets/plugins/bootstrap/css/bootstrap.min.css')
+})
+
+router.get('/assets/plugins/github-calendar/dist/github-calendar-responsive.css', async(req, res) => {
+	res.sendFile(__path + '/assets/plugins/github-calendar/dist/github-calendar-responsive.css')
+})
+
+router.get('/assets/plugins/github-activity/src/github-activity.css', async(req, res) => {
+	res.sendFile(__path + '/assets/plugins/github-activity/src/github-activity.css')
+})
+
+
 router.use(function (req, res) {
 res.status(404)
   res.sendFile(__path + '/views/404.html')
