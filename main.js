@@ -59,6 +59,9 @@ router.get('/assets/images/projects/bucin.jpg', async(req, res) => {
 	res.sendFile(__path + '/assets/images/projects/bucin.jpg')
 })
 
+router.get('/assets/images/profile.png', async(req, res) => {
+	res.sendFile(__path + '/assets/images/profile.png')
+})
 
 
 router.use(function (req, res) {
