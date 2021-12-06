@@ -55,6 +55,10 @@ router.get('/assets/plugins/dark-mode-switch/dark-mode-switch.min.js', async(req
 	res.sendFile(__path + '/assets/plugins/dark-mode-switch/dark-mode-switch.min.js')
 })
 
+router.get('/assets/images/projects/bucin.jpg', async(req, res) => {
+	res.sendFile(__path + '/assets/images/projects/bucin.jpg')
+})
+
 
 
 router.use(function (req, res) {
