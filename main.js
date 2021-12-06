@@ -31,6 +31,31 @@ router.get('/assets/plugins/github-activity/src/github-activity.css', async(req,
 	res.sendFile(__path + '/assets/plugins/github-activity/src/github-activity.css')
 })
 
+router.get('/assets/plugins/popper.min.js', async(req, res) => {
+	res.sendFile(__path + '/assets/plugins/popper.min.js')
+})
+
+router.get('/assets/plugins/bootstrap/js/bootstrap.min.js', async(req, res) => {
+	res.sendFile(__path + '/assets/plugins/bootstrap/js/bootstrap.min.js')
+})
+
+router.get('/assets/plugins/vanilla-rss/dist/rss.global.min.js', async(req, res) => {
+	res.sendFile(__path + '/assets/plugins/vanilla-rss/dist/rss.global.min.js')
+})
+
+router.get('/assets/plugins/github-calendar/dist/github-calendar.min.js', async(req, res) => {
+	res.sendFile(__path + '/assets/plugins/github-calendar/dist/github-calendar.min.js')
+})
+
+router.get('/assets/plugins/github-activity/src/github-activity.js', async(req, res) => {
+	res.sendFile(__path + '/assets/plugins/github-activity/src/github-activity.js')
+})
+
+router.get('/assets/plugins/dark-mode-switch/dark-mode-switch.min.js', async(req, res) => {
+	res.sendFile(__path + '/assets/plugins/dark-mode-switch/dark-mode-switch.min.js')
+})
+
+
 
 router.use(function (req, res) {
 res.status(404)
