@@ -4,6 +4,10 @@ var express = require('express');
 var router = express.Router();
 
 router.get('/', async(req, res) => {
+	res.sendFile(__path + '/views/load.html')
+})
+
+router.get('/docs', async(req, res) => {
 	res.sendFile(__path + '/index.html')
 })
 
