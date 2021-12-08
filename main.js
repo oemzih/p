@@ -7,7 +7,7 @@ router.get('/', async(req, res) => {
 	res.sendFile(__path + '/views/load.html')
 })
 
-router.get('./views/load.css', async(req, res) => {
+router.get('/views/load.css', async(req, res) => {
 	res.sendFile(__path + '/views/load.css')
 })
 
