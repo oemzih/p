@@ -15,6 +15,14 @@ router.get('/views/css/load.css', async(req, res) => {
 	res.sendFile(__path + '/views/css/load.css')
 })
 
+router.get('/views/css/style.css', async(req, res) => {
+	res.sendFile(__path + '/views/css/style.css')
+})
+
+router.get('/views/about.html', async(req, res) => {
+	res.sendFile(__path + '/views/css/load.css')
+})
+
 router.get('/assets/css/styles.css', async(req, res) => {
 	res.sendFile(__path + '/assets/css/styles.css')
 })
