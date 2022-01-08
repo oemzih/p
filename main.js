@@ -20,7 +20,7 @@ router.get('/views/css/style.css', async(req, res) => {
 })
 
 router.get('/views/about.html', async(req, res) => {
-	res.sendFile(__path + '/views/css/load.css')
+	res.sendFile(__path + '/views/about.html')
 })
 
 router.get('/assets/css/styles.css', async(req, res) => {
